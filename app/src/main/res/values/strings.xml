@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LearnCalligraphy</string>
+    <string name="definition">What is Calligraphy?</string>
+    <string name="about">Calligraphy is the art of beautiful handwriting and is available at where Memories Are Made. Come in to see the variety of ways you can use this elegant craft for your special ocasion and how we are keepeing calligraphy alive.  </string>
+    <string name="motto">\'\'In order to be irreplaceable one must always be different.\'\' Coco Chanel</string>
+    <string name="motto2">Tired of common fonts? Try Calligraphy. Don\'t get stuck. Dare to dream.</string>
+    <string name="invitation">Come to us now!</string>
+    <string name="address">Orchid 27, Bucharest, Romania</string>
+    <string name="phone">0723 922 512</string>
+    <string name="email">sina.predut@gmail.com</string>
+</resources>

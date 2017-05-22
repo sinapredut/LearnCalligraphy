@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_padding">5dp</dimen>
+    <dimen name="logo_text_size">20sp</dimen>
+    <dimen name="define_margin">10dp</dimen>
+    <dimen name="text_size_information">18sp</dimen>
+    <dimen name="margin_bottom_top_linear_layout">30dp</dimen>
+    <dimen name="margin_bottom_top_text">33dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="margin_left_icons_between_text">30dp</dimen>
+    <dimen name="margin_left_linear_layout_icons">20dp</dimen>
+    <dimen name="margin_top_icons_linear_layout">40dp</dimen>
+    <dimen name="margin_top_text_linear_layout">50dp</dimen>
+</resources>

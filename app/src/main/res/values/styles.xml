@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4e342e</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="widthmatch_heightwrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="widthmatch_heightmatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="cocotextview" parent="widthmatch_heightwrap">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">@dimen/logo_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="definitiontextview" parent="widthmatch_heightwrap">
+        <item name="android:layout_marginBottom">@dimen/define_margin</item>
+        <item name="android:layout_marginTop">@dimen/define_margin</item>
+        <item name="android:textColor">@color/color2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="hline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color2</item>
+        <item name="android:layout_marginTop">@dimen/define_margin</item>
+        <item name="android:layout_marginBottom">@dimen/define_margin</item>
+    </style>
+
+    <style name="mottoview" parent="widthmatch_heightwrap">
+        <item name="android:layout_marginTop">@dimen/define_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color2</item>
+    </style>
+</resources>

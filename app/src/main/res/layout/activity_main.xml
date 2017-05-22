@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/widthmatch_heightmatch"
+    android:background="@drawable/vintage_background"
+    android:orientation="vertical"
+    android:padding="@dimen/main_padding"
+    tools:context="com.example.android.learncalligraphy.MainActivity">
+
+    <ScrollView style="@style/widthmatch_heightwrap">
+
+        <LinearLayout
+            style="@style/widthmatch_heightwrap"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                style="@style/widthmatch_heightwrap">
+
+                <ImageView
+                    style="@style/widthmatch_heightwrap"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/letter_feather" />
+
+                <TextView
+                    style="@style/cocotextview"
+                    android:text="@string/motto" />
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/definitiontextview"
+                android:text="@string/definition" />
+
+            <TextView
+                style="@style/widthmatch_heightwrap"
+                android:text="@string/about"/>
+
+            <View style="@style/hline" />
+
+            <RelativeLayout
+                style="@style/widthmatch_heightwrap"
+                android:id="@+id/layout_icon_info"
+                android:paddingLeft="@dimen/margin_left_linear_layout_icons"
+                android:layout_marginBottom="@dimen/margin_bottom_top_linear_layout">
+
+                <ImageView
+                    android:id="@+id/image_loc"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_marginTop="@dimen/margin_bottom_top_linear_layout"
+                    android:src="@drawable/compass" />
+
+                <TextView
+                    style="@style/widthmatch_heightwrap"
+                    android:id="@+id/text_loc"
+                    android:layout_marginLeft="@dimen/margin_left_icons_between_text"
+                    android:layout_toRightOf="@+id/image_loc"
+                    android:paddingTop="@dimen/margin_bottom_top_text"
+                    android:text="@string/address"
+                    android:textSize="@dimen/text_size_information" />
+
+                <ImageView
+                    android:id="@+id/image_phone"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_below="@+id/image_loc"
+                    android:layout_marginTop="@dimen/margin_top_text_linear_layout"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    style="@style/widthmatch_heightwrap"
+                    android:id="@+id/text_phone"
+                    android:layout_below="@+id/text_loc"
+                    android:layout_marginLeft="@dimen/margin_left_icons_between_text"
+                    android:layout_marginTop="@dimen/margin_top_text_linear_layout"
+                    android:layout_toRightOf="@+id/image_phone"
+                    android:text="@string/phone"
+                    android:textSize="@dimen/text_size_information" />
+
+                <ImageView
+                    android:id="@+id/image_mail"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_below="@+id/image_phone"
+                    android:layout_marginTop="@dimen/margin_top_icons_linear_layout"
+                    android:src="@drawable/letter" />
+
+                <TextView
+                    style="@style/widthmatch_heightwrap"
+                    android:id="@+id/text_mail"
+                    android:layout_below="@+id/text_phone"
+                    android:layout_marginLeft="@dimen/margin_left_icons_between_text"
+                    android:layout_marginTop="@dimen/margin_top_text_linear_layout"
+                    android:layout_toRightOf="@+id/image_mail"
+                    android:text="@string/email"
+                    android:textSize="@dimen/text_size_information" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/mottoview"
+                android:text="@string/motto2" />
+
+            <Button
+                style="@style/widthmatch_heightwrap"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/define_margin"
+                android:text="@string/invitation" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
